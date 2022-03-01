@@ -1,0 +1,43 @@
+/* ~~~~~~~~ HEADER ~~~~~~~~~~ */
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0px;
+}
+
+header img {
+  margin-bottom: 30px;
+}
+
+
+header nav {
+  width: 400px;
+  /* padding: 56px; */
+}
+
+header nav ul{
+  padding: 0px;
+  list-style-type: none;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: large;
+  text-transform: uppercase;
+}
+
+.about {
+  color: #0ba39c;
+}
+
+header nav ul li a:hover {
+  color: #0ba39c;
+}

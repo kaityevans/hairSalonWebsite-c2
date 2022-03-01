@@ -59,6 +59,9 @@ header {
     text-transform: uppercase;
   }
 
+  .home {
+    color: #0ba39c;
+  }
   header nav ul li a:hover {
     color: #0ba39c;
   }
