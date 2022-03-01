@@ -1,3 +1,18 @@
+h1 {
+  color: white;
+  text-transform: uppercase;
+  background-color: rgb(39, 38, 38);
+  border: 20px solid rgb(39, 38, 38);
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 40px;
+  /* text-align: center; */
+  /* display: flex; */
+  /* flex: 1; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
 /* ~~~~~~~~ HEADER ~~~~~~~~~~ */
 
 header {
@@ -40,4 +55,28 @@ header nav ul li a {
 
 header nav ul li a:hover {
   color: #0ba39c;
+}
+
+/* ~~~~~~~~MAIN~~~~~~~~~~ */
+td img {
+  border: 5px solid black;
+  display: flex;
+  justify-content: space-evenly;
+  opacity: 1;
+  /* width: 200px; */
+}
+td img:hover{
+  opacity: 0.5;
+}
+
+td {
+  height:350px;
+  width:350px;
+  text-align: center;
+  /* border: 5px solid black; */
+  /* font-size: 100px; */
+}
+
+table {
+  margin: auto auto;
 }

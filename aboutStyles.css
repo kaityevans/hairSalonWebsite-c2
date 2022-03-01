@@ -41,3 +41,49 @@ header nav ul li a {
 header nav ul li a:hover {
   color: #0ba39c;
 }
+
+/* ~~~~~~~~~MAIN~~~~~~~~~~ */
+
+div main {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto auto auto auto;
+  
+}
+
+h1 {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 20px solid rgb(39, 38, 38);
+  background-color: rgb(39, 38, 38);
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+img.photographer {
+  /* display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center; */
+  border: 2px solid black;
+  inset-inline-end: auto;
+  margin-left: 300px;
+}
+
+div h3, div p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  /* word-spacing: 0px; */
+  /* line-break: 0px; */
+  /* white-space:initial; */
+}
+
+div h3 {
+  font-weight: bolder;
+  font-size: larger;
+}
