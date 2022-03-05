@@ -44,22 +44,26 @@ header nav ul li a:hover {
 /* ~~~~~~~~ Main ~~~~~~~~~~ */
 
 
-ul.main li {
-  box-sizing: content-box;
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-  padding: 20px;
+ul.main li input, ul.main li textarea {
+  padding: 10px 120px;
   align-content: space-between;
   font-size: 25px;
-  border: 2px solid red;
+  border: 2px solid black;
+}
+ 
+ul.main li  {
+  font-size: 30px;
+  font-weight: bold;
+  list-style-type: none;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
-ul li label {
-  padding: 20px;
-}
-
-ul li.message, ul li.phone {
-  width: 220px;
-  height: 100px;
+ul.main li button {
+  padding: 10px;
+  background-color: #0ba39c;
+  border: 2px solid black;
 }
