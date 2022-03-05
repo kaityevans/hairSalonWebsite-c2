@@ -22,5 +22,44 @@
         </nav>
     </header>
 </div>
+<main>
+<div>
+  <h4>
+    <ul class="main">
+      <li>
+        <label for="name">Name</label> 
+      <input type="text" name="name" id="name" placeholder="First & Last Name">
+      </li>
+      <li>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required
+        placeholder="username@beststartupever.com" pattern=".+@beststartupever\.com">
+      </li> 
+      <li>
+        <label for="phone">Phone</label>
+        <input type="tel" name="phone" id="phone" placeholder="(123) 456-7890">
+      </li>
+      <li>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" minlength="20" maxlength="500" placeholder="Please write your message here."></textarea>
+        <input type="hidden" name="hidden" value="hi">
+      </li>
+      <!-- <li>
+        <h4>Do you want us to contact you?</h4>
+         <label for="yes">Yes</label>
+         <input type="radio" name="answer" id="yes" value="yes">
+         <label for="No">No</label>
+         <input type="radio" name="answer" id="no" value="no">
+      </li> -->
+      <li>
+        <div>
+          <a href="results.html">
+            <button required="email">Submit</button>
+          </a>
+        </div>
+      </li>
+    </ul>
+</div>
+</main>
 </body>
 </html>

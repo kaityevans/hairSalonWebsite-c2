@@ -41,3 +41,25 @@ header nav ul li a {
 header nav ul li a:hover {
   color: #0ba39c;
 }
+/* ~~~~~~~~ Main ~~~~~~~~~~ */
+
+
+ul.main li {
+  box-sizing: content-box;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  align-content: space-between;
+  font-size: 25px;
+  border: 2px solid red;
+}
+
+ul li label {
+  padding: 20px;
+}
+
+ul li.message, ul li.phone {
+  width: 220px;
+  height: 100px;
+}
