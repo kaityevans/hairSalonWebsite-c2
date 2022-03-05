@@ -41,3 +41,27 @@ header nav ul li a {
 header nav ul li a:hover {
   color: #0ba39c;
 }
+
+/* ~~~~~~~~ MAIN ~~~~~~~~~~ */
+
+main {
+  /* display: grid; */
+  /* grid-template-columns: 30% 70%; */
+  /* grid-template-rows: auto auto auto; */
+}
+
+main div.box1, .box2, .box3 {
+  border: 2px solid black;
+  /* margin: 50px; */
+  /* width: 800px; */
+  /* height: 100%; */
+}
+/* 
+button, h2, main div p {
+  /* display: flex; */
+  /* justify-content: end;
+  float: right;
+} */ */
+main div img {
+  float: left;
+}
