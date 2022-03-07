@@ -87,3 +87,173 @@ div h3 {
   font-weight: bolder;
   font-size: larger;
 }
+
+/* ~~~~~~~~~~~ FOOTER ~~~~~~~~~~ */
+footer div {
+  border: 2px solid black;
+  background-color: black;
+  width: 100%;
+  color: white;
+}
+
+footer div {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer div h4 {
+  font-size: medium;
+} 
+footer div h4 img {
+  float: left;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+footer div img {
+  border: 2px solid white;
+  width: 3%;
+  float: right;
+  margin-top: 20px;
+  margin-right: 20px;
+} 
+
+footer li {
+  list-style-type: none;
+}
+
+/* ~~~~~~~~~~~~~~~ Media Queries~~~~~~~~~~ */
+
+  /* Small and up (Landscape Phones) */
+  @media (max-width: 576px) {
+   
+    header nav ul li a {
+      font-size: small;
+    }
+
+    header nav {
+      width: 90%;
+      margin-bottom: 0px;
+    }
+
+    h1 {
+      font-size: 23px;
+      margin-left: 5px;
+      margin-top: 20px;
+    }
+
+    img.photographer {
+      margin-left: 0px;
+      max-width: 300px;
+      border: none;
+    }
+
+    main div {
+      border: 2px solid black;
+      margin-left: 30px;
+      margin-bottom: 10px;
+    }
+
+    main {
+      max-width: 300px;
+    }
+
+    footer div h4 {
+      font-size: x-small;
+    }
+
+    footer div h4 img {
+      margin-top: 0px;
+      margin-left: 0px;
+    }
+    
+    footer div img {
+      width: 8%;
+      margin-top: 10px;
+      margin-right: 10px;
+    } 
+  }
+
+  /* Medium and up (Tablets) */
+  @media (min-width: 577px) {
+    * {
+      max-width: 870px;
+    }
+    header nav ul li a {
+      font-size: medium;
+    }
+
+    header nav {
+      width: 90%;
+      /* padding: 56px; */
+    }
+    
+    h1 {
+      margin-top: 15px;
+    }
+    
+    img.photographer {
+      margin-left: 90px;
+      max-width: 600px;
+      border: none;
+    }
+
+    main div {
+      border: 2px solid black;
+      margin-left: 20px;
+      margin-bottom: 10px;
+    }
+
+    footer div h4 {
+      font-size: x-small;
+    } 
+    footer div h4 img {
+      margin-top: 0px;
+      margin-left: 0px;
+    }
+    
+    footer div img {
+      width: 8%;
+      margin-top: 10px;
+      margin-right: 10px;
+    } 
+  }
+
+  /* Large and up (Desktops) */
+  @media (min-width: 992px) {
+    * {
+      max-width: 1240px;
+    }
+    header nav ul li a {
+      font-size: large;
+    }
+
+    header nav {
+      width: 60%;
+      /* padding: 56px; */
+    }
+
+    td {
+      height:75px;
+      width:250px;
+    }
+
+    td img {
+      margin: 0px;
+      max-width: 310px;
+    }
+
+    footer div h4 {
+      font-size: small;
+    } 
+    footer div h4 img {
+      margin-top: 0px;
+      margin-left: 0px;
+    }
+    
+    footer div img {
+      width: 3%;
+      margin-top: 10px;
+      margin-right: 10px;
+    } 
+  }
