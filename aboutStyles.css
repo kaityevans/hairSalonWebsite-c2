@@ -191,7 +191,7 @@ footer li {
     h1 {
       margin-top: 15px;
     }
-    
+
     img.photographer {
       margin-left: 90px;
       max-width: 600px;
@@ -233,14 +233,10 @@ footer li {
       /* padding: 56px; */
     }
 
-    td {
-      height:75px;
-      width:250px;
-    }
-
-    td img {
-      margin: 0px;
-      max-width: 310px;
+    img.photographer {
+      margin-left: 290px;
+      max-width: 600px;
+      border: none;
     }
 
     footer div h4 {
